@@ -1,0 +1,93 @@
+/*
+  ========================================
+  Clearfix for floating elements
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+body {
+    background-color: #efefef;
+}
+
+
+.navbar {
+    position: relative;
+    background-color: #fff;
+    height: 80px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.myname {
+    position: absolute;
+    top: 0;
+    left: 200px;
+    background-color: #4aaaa5;
+    color:#fff;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navlinks {
+    position: absolute;
+    top: 0;
+    right: 200px;
+    font-size: 12px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+
+.navlink {
+    color: #4aaaa5; 
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.main {
+    padding: 20px;
+    width: 969px;
+    background-color: #fff;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.aboutme {
+    color: #4aaaa5; 
+}
+
+p,
+.myname {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+a:hover, a:active {
+    color: red;
+}
+
+.aboutimage {
+    float: left;
+    margin-right: 10px;
+}
+
+
+.footer {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    background-color: #666666;
+    text-align: center;
+}
