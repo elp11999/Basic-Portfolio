@@ -53,15 +53,15 @@ table {
   Clearfix for floating elements
   ========================================
 */
-.group:before,
-.group:after {
+.cfix:before,
+.cfix:after {
   content: "";
   display: table;
 }
-.group:after {
+.cfix:after {
   clear: both;
 }
-.group {
+.cfix {
   clear: both;
   *zoom: 1;
 }

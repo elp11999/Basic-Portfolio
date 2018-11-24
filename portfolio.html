@@ -3,37 +3,57 @@
 <html lang="en">
 
     <head>
-
         <meta charset="utf-8">
         <title>My Portfolio</title>
         <link rel="stylesheet" type="text/css" href="assets/css/resets.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
     </head>
 
     <body>
-
-        <header>
-            <nav class="navbar"> 
-                <h1 class="myname">Michael Henderson</h1>
-                <ul class="navlinks">
-                    <li><a class="navlink" href="index.html">About</a></li>
-                    <li><a class="navlink" href="portfolio.html">Portfolio</a></li>
-                    <li><a class="navlink" href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+        <nav>
+            <h1 class="navheader cfix">Michael Henderson</h1>
+            <ul class="navlist">
+                <li class="navlistitem"><a class="navlink" href="contact.html">Contact</a></li>
+                <li class="navlistitem"><a class="navlink" href="portfolio.html">Portfolio</a></li>
+                <li class="navlistitem"><a class="navlink" href="index.html">About</a></li>
+            </ul>
+        </nav>
 
         <section class="main">
-            <h2 class="mainheader">Portfolio</h2>
-            <div class="portfolio">
+            <h2 class="portfolioheader">Portfolio</h2>
+    
+            <div class="portfolioimageline">
+                <div class="portfolioimagecontainer">
+                    <img class="portfolioimage" src="assets/images/s1.jpg" alt="surfer" height="175" width="225" >
+                    <span class="portfolioimagetext">No sharks I hope...</span>
+                </div>
+                <div class="portfolioimagecontainer">
+                    <img class="portfolioimage" src="assets/images/s2.jpg" alt="runners" height="175" width="225" >
+                    <span class="portfolioimagetext">Are we done yet?</span>
+                </div>
             </div>
+    
+            <div class="portfolioimageline">
+                <div class="portfolioimagecontainer">
+                    <img class="portfolioimage" src="assets/images/s3.jpg" alt="baseball" height="175" width="225" >
+                    <span class="portfolioimagetext">Your shoes are untied...</span>
+                </div>
+                <div class="portfolioimagecontainer">
+                    <img class="portfolioimage" src="assets/images/s4.jpg" alt="motocross" height="175" width="225" >
+                    <span class="portfolioimagetext">Catch me if you can...</span>
+                </div>
+            </div>
+    
+            <div class="portfolioimageline">
+                <div class="portfolioimagecontainer">
+                    <img class="portfolioimage" src="assets/images/s5.jpg" alt="showingoff" height="175" width="225" >
+                    <span class="portfolioimagetext">Try this move...</span>
+                </div>
+            </div>    
         </section>
 
-        <footer>
-            <div class="footer">
-                Copyright&#169;       
-            </div>
+        <footer class="footer">
+            Copyright&#169;  
         </footer>
 
     </body>

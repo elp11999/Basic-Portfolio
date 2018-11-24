@@ -3,47 +3,37 @@
 <html lang="en">
 
     <head>
-
-        <meta charset="utf-8">
         <title>My Portfolio</title>
+        <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="assets/css/resets.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
     </head>
 
     <body>
+        <nav>
+            <h1 class="navheader cfix">Michael Henderson</h1>
+            <ul class="navlist">
+                <li class="navlistitem"><a class="navlink" href="contact.html">Contact</a></li>
+                <li class="navlistitem"><a class="navlink" href="portfolio.html">Portfolio</a></li>
+                <li class="navlistitem"><a class="navlink" href="index.html">About</a></li>
+            </ul>
+        </nav>
 
-        <header>
-            <nav class="navbar"> 
-                <h1 class="myname">Michael Henderson</h1>
-                <ul class="navlinks">
-                    <li><a class="navlink" href="index.html">About</a></li>
-                    <li><a class="navlink" href="portfolio.html">Portfolio</a></li>
-                    <li><a class="navlink" href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <section class="main maincontact">
-            <h2 class="mainheader">Contact</h2>
-                <form class="contact-form">
-                    <div class="contactheader">Name</div>
-                    <input class="contactinput" type="text" name="name" placeholder="Enter your name">
-                    <div class="contactheader"class="contactheader">Email</div>
-                    <input class="contactinput" type="text" name="email" placeholder="example@gmail.com">
+        <section class="main">
+            <h2 class="contactheader">Contact</h2>
+                <form class="contactform">
+                    <label class="contactlabel" for="name">Name</label>
+                    <input class="contactinput" type="text" id="name" name="name" placeholder="Enter your name">
+                    <label class="contactlabel" for="email">Email</label>
+                    <input class="contactinput" type="text" id="email" name="email" placeholder="example@gmail.com">
                 </form>
-                <div class="contactheader">Message</div>
-                <textarea class="contactinput" class="contacttext" rows="15"></textarea>
-            </div>
-
+                <label class="contactlabel" for="contacttext">Message</label>
+                <textarea class="contacttext" id="contacttext" rows="10"></textarea>
              <button class="contactbutton" type="button">Submit</button>
+        </section> 
 
-        </section>
-
-        <footer>
-            <div class="footer">
-                Copyright&#169;       
-            </div>
+        <footer class="footer">
+            Copyright&#169;  
         </footer>
 
     </body>
