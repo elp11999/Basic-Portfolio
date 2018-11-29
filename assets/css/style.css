@@ -1,7 +1,6 @@
 /*
  * CSS for the portfolio web site
- */
- 
+ */ 
 body {
     background-color: #4aaaa5;
     background-image: url(../images/gravel.png);
@@ -160,7 +159,7 @@ p {
     font-size: 12px;
     width: 100%; 
     text-align: center;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 5px;
     border-top: 5px solid #4aaaa5;
     position: fixed;

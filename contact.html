@@ -23,16 +23,16 @@
 
         <section class="main">
             <h2 class="contactheader">Contact</h2>
-                <form class="contactform">
+                <form class="contactform" action="mailto:msh@openconnect.com?subject=Contact Information" method="post" enctype="text/plain">
                     <label class="contactlabel" for="name">Name</label>
                     <input class="contactinput" type="text" id="name" name="name" placeholder="Enter your name">
                     <label class="contactlabel" for="email">Email</label>
                     <input class="contactinput" type="text" id="email" name="email" placeholder="example@gmail.com">
+                    <label class="contactlabel" for="contacttext">Message</label>
+                    <textarea class="contacttext" id="contacttext"  name="message" rows="10"></textarea>
+                    <button class="contactbutton" type="submit">Submit</button>
                 </form>
-                <label class="contactlabel" for="contacttext">Message</label>
-                <textarea class="contacttext" id="contacttext" rows="10"></textarea>
-             <button class="contactbutton" type="button">Submit</button>
-        </section> 
+        </section>    
 
         <footer class="footer">
             Copyright&#169;  
